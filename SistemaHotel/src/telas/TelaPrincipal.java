@@ -15,6 +15,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
      */
     public TelaPrincipal() {
         initComponents();
+        setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -26,6 +27,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jTextField1 = new javax.swing.JTextField();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu9 = new javax.swing.JMenu();
@@ -85,10 +87,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenuItem21 = new javax.swing.JMenuItem();
         menuSair = new javax.swing.JMenu();
 
+        jTextField1.setText("jTextField1");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cadastro.png"))); // NOI18N
         jMenu1.setText("Cadastros    ");
+        jMenu1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu9.setText("Hospedes");
 
@@ -154,6 +159,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/reserva.png"))); // NOI18N
         jMenu2.setText("Reservas    ");
+        jMenu2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu14.setText("Cadastrar Reservas");
         jMenu2.add(jMenu14);
@@ -168,6 +174,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/consumo.png"))); // NOI18N
         jMenu3.setText("Vendas    ");
+        jMenu3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu17.setText("Produtos");
         jMenu3.add(jMenu17);
@@ -179,6 +186,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/financeiro.png"))); // NOI18N
         jMenu4.setText("Financeiro    ");
+        jMenu4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu19.setText("Contas a Pagar");
 
@@ -207,6 +215,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/relatorio.png"))); // NOI18N
         jMenu5.setText("Relatórios    ");
+        jMenu5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu22.setText("Financeiro");
 
@@ -255,6 +264,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Segurança.png"))); // NOI18N
         jMenu6.setText("Segurança    ");
+        jMenu6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu28.setText("Fazer Backup");
         jMenu6.add(jMenu28);
@@ -266,6 +276,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/ferramentas.png"))); // NOI18N
         jMenu7.setText("Ferramentas    ");
+        jMenu7.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         jMenu31.setText("Sobre o Sistema");
 
@@ -287,6 +298,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         menuSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/sair.png"))); // NOI18N
         menuSair.setText("Sair");
+        menuSair.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jMenuBar1.add(menuSair);
 
         setJMenuBar(jMenuBar1);
@@ -400,6 +412,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
+    private javax.swing.JTextField jTextField1;
     private javax.swing.JMenuItem menuCadHospede;
     private javax.swing.JMenuItem menuConHospede;
     private javax.swing.JMenu menuSair;
